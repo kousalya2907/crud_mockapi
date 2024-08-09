@@ -14,7 +14,7 @@ const nav = useNavigate();
 const handleSubmit = (event)=>{
     event.preventDefault();
 
-if(userName == "" || email == ""){
+if(userName === "" || email === ""){
         alert("Enter full Details");
 }
    else{ let result = {
